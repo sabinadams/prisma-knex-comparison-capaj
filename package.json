@@ -1,0 +1,22 @@
+{
+  "name": "capajjrepro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "dotenv-cli": "^7.1.0",
+    "knex": "^2.4.2",
+    "pg": "^8.10.0",
+    "prisma": "^4.11.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
